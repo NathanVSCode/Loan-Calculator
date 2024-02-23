@@ -16,7 +16,7 @@ function calculateLoan() {
     let placeholderText = document.getElementById("placeholderText");
 
     if (loanAmountValue < 1 || MonthsToPayValue < 1 || interest < 1) {
-        document.getElementById("payment").innerHTML = "That is not a valid number. Please enter a different number"
+        document.getElementById("payment").innerHTML = "That is not a valid number. Please enter a larger number"
 } else{
     document.getElementById("payment").innerHTML =
     `Monthly Payment: ${monthlyPayment}`
